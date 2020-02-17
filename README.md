@@ -7,9 +7,9 @@
 
 ### 二、分步配置
 ```sh
- 1、wget https://raw.githubusercontent.com/XiaoNaoXu/filecopy/master/shadowsocks.sh
- 2、chmod +x shadowsocks.sh
- 3、./shadowsocks.sh
+ $ wget https://raw.githubusercontent.com/XiaoNaoXu/filecopy/master/shadowsocks.sh
+ $ chmod +x shadowsocks.sh
+ $ ./shadowsocks.sh
 ```
 ## 使用说明
 ```

@@ -1,17 +1,17 @@
 # shadowsocks server 配置
-# 安装 
-## 一、一键配置
+## 安装 
+### 一、一键配置
 ```sh
  wget https://raw.githubusercontent.com/XiaoNaoXu/filecopy/master/shadowsocks.sh && chmod +x shadowsocks.sh && ./shadowsocks.sh
 ```
 
-## 二、分步配置
+### 二、分步配置
 ```sh
  1、wget https://raw.githubusercontent.com/XiaoNaoXu/filecopy/master/shadowsocks.sh
  2、chmod +x shadowsocks.sh
  3、./shadowsocks.sh
 ```
-# 使用说明
+## 使用说明
 ```
  1. 购买一个服务器。
  2. ssh登录该服务器。

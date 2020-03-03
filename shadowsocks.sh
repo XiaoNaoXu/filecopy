@@ -2,10 +2,10 @@
 
 apt update && apt install python3.7 -y && apt install python3-pip -y && pip3 install shadowsocks
 echo '{ "server": "0.0.0.0",
-    "port_password": {"30001": "password1","30002": "password2","30003": "password3","30004": "password4"},
+    "port_password": {"3001": "password1","3002": "password2","3003": "password3","3004": "password4"},
     "timeout": 300,"method": "aes-256-cfb", 
     "protocol": "auth_sha1_v4_compatible",
-    "protocol_param": "5",
+    "protocol_param": "10",
     "obfs": "plain",
     "obfs_param": "",
     "speed_limit_per_con": 0,

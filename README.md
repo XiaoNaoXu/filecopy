@@ -26,7 +26,7 @@ $ sudo vim /etc/polipo/config
 #### 就可以使用了（polipo默认端口是8123）：
   ```sh
   $ sudo service polipo restart
-  $ wget -e “http_proxy=127.0.0.1:8123″  proxy.mimvp.com
+  $ wget -e “http_proxy=127.0.0.1:8123″  google.com
   ```
 #### 或者(这只是临时的，终端关闭后失效，并且只对当前终端有效)：
   ```sh

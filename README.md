@@ -11,7 +11,7 @@
  $ chmod +x shadowsocks.sh
  $ ./shadowsocks.sh
 ```
-## 三、设置代理，代理软件如polipo（全局代理）, privoxy（自动+全局代理）
+### 三、设置代理，代理软件如polipo（全局代理）, privoxy（自动+全局代理）
 ### polipo安装
 ```sh
 $ sudo apt install polipo
@@ -29,13 +29,13 @@ $ sudo vim /etc/polipo/config
   $ wget -e “http_proxy=127.0.0.1:8123″  proxy.mimvp.com
   ```
 #### 或者(这只是临时的，终端关闭后失效，并且只对当前终端有效)：
-  '''sh
+  ```sh
   $ export http_proxy=http://127.0.0.1:8123
   $ export https_proxy=http://127.0.0.1:8123
   $ export ftp_proxy=http://127.0.0.1:8123
   ```
 #### 全局办法，修改~/.bashrc，如果你使用的是bash的话(作者也就是我用的是zsh所以修改的是~/.zshrc):
-  '```''sh
+  ```sh
   $ vim ~/.bashrc
   $ export http_proxy=http://127.0.0.1:8123
   $ export https_proxy=http://127.0.0.1:8123

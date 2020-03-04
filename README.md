@@ -16,7 +16,6 @@
 '''sh
 $ sudo apt install polipo
 $ sudo vim /etc/polipo/config 
-''''
 #### 在末尾加入如下内容：
   proxyAddress = "0.0.0.0"
   socksParentProxy = "127.0.0.1:1080"
@@ -35,8 +34,9 @@ $ sudo vim /etc/polipo/config
    export ftp_proxy=http://127.0.0.1:8123
   $ source ~/.bashrc
 #### 大功告成，如果你不怕服务器被封的话就可以这么使用，大约0.5-2个小时你就会发现VPS服务器端口被qiang了，多次之后IP也没了。。。 
-''''
 ### privoxy安装与使用
+'''
+
 '''sh
 #### privoxy安装
 $ sudo apt install privoxy
@@ -47,8 +47,6 @@ $ gfwlist2privoxy -i https://raw.githubusercontent.com/gfwlist/gfwlist/master/gf
 $ vim /etc/privoxy/config 并加入(你可以跳转到385行左右，哪里有其他规则文件样式)  actionsfile /etc/privoxy/gfwlist.action
 $ sudo service privoxy restart
 #### 设置代理的方法如同polipo，唯一差异就是privoxy的默认端口是8188，可以在/etc/privoxy/config中更改
-'''
-
 '''
 
 ## 使用说明
